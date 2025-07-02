@@ -1,0 +1,116 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.callflashlightblink"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:3:5-65
+11-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:3:22-62
+12    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+12-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:4:2-72
+12-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:4:19-69
+13    <uses-permission android:name="android.permission.CALL_PHONE" />
+13-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:5:2-66
+13-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:5:19-63
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:6:2-74
+14-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:6:19-71
+15
+16    <uses-feature android:name="android.hardware.camera" />
+16-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:7:5-60
+16-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:7:19-57
+17    <uses-feature android:name="android.hardware.camera.flash" />
+17-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:8:5-66
+17-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:8:19-63
+18
+19    <permission
+19-->[androidx.core:core:1.9.0] C:\Users\Satti\.gradle\caches\8.14.2\transforms\ab5617b0cb455472af9b923b61205871\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+20        android:name="com.example.callflashlightblink.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.9.0] C:\Users\Satti\.gradle\caches\8.14.2\transforms\ab5617b0cb455472af9b923b61205871\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.9.0] C:\Users\Satti\.gradle\caches\8.14.2\transforms\ab5617b0cb455472af9b923b61205871\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.example.callflashlightblink.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.9.0] C:\Users\Satti\.gradle\caches\8.14.2\transforms\ab5617b0cb455472af9b923b61205871\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.9.0] C:\Users\Satti\.gradle\caches\8.14.2\transforms\ab5617b0cb455472af9b923b61205871\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+24
+25    <application
+25-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:10:5-36:19
+26        android:allowBackup="true"
+26-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:11:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.9.0] C:\Users\Satti\.gradle\caches\8.14.2\transforms\ab5617b0cb455472af9b923b61205871\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:12:9-43
+30        android:label="@string/app_name"
+30-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:13:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:14:9-54
+32        android:supportsRtl="true"
+32-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:15:9-35
+33        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+33-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:16:9-65
+34        <activity
+34-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:18:9-25:14
+35            android:name="com.example.callflashlightblink.MainActivity"
+35-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:19:4-32
+36            android:exported="true" >
+36-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:20:4-27
+37            <intent-filter>
+37-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:21:4-24:20
+38                <action android:name="android.intent.action.MAIN" />
+38-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:22:5-57
+38-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:22:13-54
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:23:5-65
+40-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:23:15-62
+41            </intent-filter>
+42        </activity>
+43
+44        <receiver
+44-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:28:9-34:14
+45            android:name="com.example.callflashlightblink.PhoneStateReceiver"
+45-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:29:4-38
+46            android:exported="true" >
+46-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:30:4-27
+47            <intent-filter>
+47-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:31:4-33:20
+48                <action android:name="android.intent.action.PHONE_STATE" />
+48-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:32:5-64
+48-->E:\Android_Projects\CallFlashlightBlink\app\src\main\AndroidManifest.xml:32:13-61
+49            </intent-filter>
+50        </receiver>
+51
+52        <provider
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Satti\.gradle\caches\8.14.2\transforms\e5aefdd236661200c42f4c9082bfdeac\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Satti\.gradle\caches\8.14.2\transforms\e5aefdd236661200c42f4c9082bfdeac\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+54            android:authorities="com.example.callflashlightblink.androidx-startup"
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Satti\.gradle\caches\8.14.2\transforms\e5aefdd236661200c42f4c9082bfdeac\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+55            android:exported="false" >
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Satti\.gradle\caches\8.14.2\transforms\e5aefdd236661200c42f4c9082bfdeac\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+56            <meta-data
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Satti\.gradle\caches\8.14.2\transforms\e5aefdd236661200c42f4c9082bfdeac\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Satti\.gradle\caches\8.14.2\transforms\e5aefdd236661200c42f4c9082bfdeac\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+58                android:value="androidx.startup" />
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Satti\.gradle\caches\8.14.2\transforms\e5aefdd236661200c42f4c9082bfdeac\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+59            <meta-data
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Satti\.gradle\caches\8.14.2\transforms\052331c69cc6bef6bab7fe356eea90ec\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Satti\.gradle\caches\8.14.2\transforms\052331c69cc6bef6bab7fe356eea90ec\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+61                android:value="androidx.startup" />
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Satti\.gradle\caches\8.14.2\transforms\052331c69cc6bef6bab7fe356eea90ec\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+62        </provider>
+63    </application>
+64
+65</manifest>
