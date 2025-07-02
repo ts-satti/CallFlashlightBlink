@@ -10,9 +10,6 @@ An Android application that blinks the flashlight when there's an incoming call 
 - Runs via BroadcastReceiver
 - Uses Android's Camera2 API
 
-## 📸 Screenshots
-
-*(Add screenshots of your app UI here if available)*
 
 ## 🔧 Requirements
 
@@ -67,15 +64,3 @@ ActivityCompat.requestPermissions(this, new String[]{
 - Add toggle to enable/disable flashlight blinking
 - Customize blink frequency
 - Support for Do Not Disturb mode detection
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 🙋‍♂️ Author
-
-**Tushmum Satti**
-
-If you like this project, feel free to ⭐️ the repo or [connect with me on LinkedIn](https://www.linkedin.com/).
