@@ -2,7 +2,7 @@
 
 An Android application that blinks the flashlight when there's an incoming call — helpful for users in silent mode or with hearing impairments.
 
-## 🚀 Features
+# 🚀 Features
 
 - Detects incoming calls
 - Blinks flashlight while phone is ringing
@@ -11,19 +11,19 @@ An Android application that blinks the flashlight when there's an incoming call 
 - Uses Android's Camera2 API
 
 
-## 🔧 Requirements
+# 🔧 Requirements
 
 - Android Studio (Arctic Fox or newer)
 - Android SDK 21+
 - Java 8 or higher
 
-## ⚙️ How It Works
+# ⚙️ How It Works
 
 - A custom `BroadcastReceiver` (`PhoneStateReceiver`) listens for call state changes.
 - On `CALL_STATE_RINGING`, the flashlight blinks using `CameraManager` and `setTorchMode`.
 - Automatically stops blinking on `CALL_STATE_IDLE`.
 
-## 🛠️ Installation
+# 🛠️ Installation
 
 1. Clone the repo:
    ```bash
@@ -40,7 +40,7 @@ An Android application that blinks the flashlight when there's an incoming call 
    adb install app/build/outputs/apk/debug/app-debug.apk
    ```
 
-## ⚠️ Permissions Required
+# ⚠️ Permissions Required
 
 Make sure your app has the following permissions in `AndroidManifest.xml`:
 
@@ -59,7 +59,7 @@ ActivityCompat.requestPermissions(this, new String[]{
 }, 1);
 ```
 
-## ✅ TODOs / Future Improvements
+# ✅ TODOs / Future Improvements
 
 - Add toggle to enable/disable flashlight blinking
 - Customize blink frequency
