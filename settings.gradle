@@ -1,2 +1,2 @@
-rootProject.name = 'CallFlashlightBlink'
+rootProject.name = "CallFlashlightBlink"
 include ':app'
