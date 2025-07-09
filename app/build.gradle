@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.callflashlightblink"
-        minSdk 21
+        minSdk 23
         targetSdk 33
         versionCode 1
         versionName "1.0"
@@ -26,10 +26,16 @@ android {
     testOptions {
         unitTests.all {
             reports {
-               junitXml.required.set(true)
-			   html.required.set(true) 
+                junitXml.required.set(true)
+                html.required.set(true)
             }
         }
+    }
+
+    lint {
+        // Optional: Prevent lint from breaking CI builds while debugging
+        abortOnError true // Set to false only temporarily if needed
+        checkReleaseBuilds true
     }
 }
 
