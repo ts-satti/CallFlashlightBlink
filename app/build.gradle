@@ -27,7 +27,7 @@ android {
         unitTests.all {
             reports {
                junitXml.required.set(true)
-			   html.required.set(true)
+			   html.required.set(true) 
             }
         }
     }
