@@ -26,8 +26,8 @@ android {
     testOptions {
         unitTests.all {
             reports {
-                junitXml.enabled = true
-                html.enabled = true
+               junitXml.required.set(true)
+			   html.required.set(true)
             }
         }
     }
